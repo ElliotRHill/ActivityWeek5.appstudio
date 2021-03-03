@@ -1,4 +1,7 @@
-while (i = true) {
-  text += (`This is loop iteration [i]`) + i;
-  i++;
-}
+let i = 1;
+while (i < 11) {
+    console.log(`This is loop iteration ${i}.`);
+    i++;
+    }
+
+
